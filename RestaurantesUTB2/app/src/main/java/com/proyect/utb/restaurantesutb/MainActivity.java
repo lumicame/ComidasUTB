@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         final ArrayList<restaurante> items =new ArrayList();
         items.add(new restaurante("Alcatraz",R.mipmap.ic_launcher,"restaurante de todo tipo de comidas"));
-        items.add(new restaurante("otros",R.mipmap.ic_launcher,"alguna descripcion"));
+        items.add(new restaurante("algo",R.mipmap.ic_launcher,"alguna descripcion"));
         items.add(new restaurante("solo cafe",R.mipmap.ic_launcher,"Tenemos variedad de cafes, conocelos"));
         items.add(new restaurante("otros",R.mipmap.ic_launcher,"Tenemos variedad de cafes, conocelos"));
 

@@ -8,7 +8,9 @@
     <string name="button_login">Start</string>
     <string name="text_signup">Sign up</string>
     <string name="title_activity_main2">Main2Activity</string>
-    <string name="option1">opcion1</string>
-    <string name="option2">opcion2</string>
-    <string name="option3">opcion3</string>
+    <string name="option1">option one</string>
+    <string name="option2">option two</string>
+    <string name="action_pedir">buy</string>
+    <string name="option3">option three</string>
+    <string name="layotu_descripcion_descripcion">Description</string>
 </resources>

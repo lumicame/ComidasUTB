@@ -26,14 +26,10 @@ public class lista_comidas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lista_comidas);
 
-       t=(TextView) findViewById(R.id.textView_restaurante);
         String t1=getIntent().getStringExtra("restaurante");
-        t.setText(t1);
         final ArrayList<comidas> items =new ArrayList();
-        items.add(new comidas("nombre de comida",R.mipmap.ic_launcher,"descripcion de la comida","precio de la comida"));
-        items.add(new comidas("nombre de comida",R.mipmap.ic_launcher,"descripcion de la comida","precio de la comida"));
-        items.add(new comidas("nombre de comida",R.mipmap.ic_launcher,"descripcion de la comida","precio de la comida"));
-        items.add(new comidas("nombre de comida",R.mipmap.ic_launcher,"descripcion de la comida","precio de la comida"));
+        items.add(new comidas("Pizza",R.drawable.pizza_slice_128,"Pizza de jamon y queso","$3000"));
+        items.add(new comidas("Pan",R.drawable.toast,"Tostadas con mantequilla","$2500"));
 
         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view_comidas);
         mRecyclerView.setHasFixedSize(true);

@@ -8,4 +8,10 @@
     <string name="text_name">Nombre</string>
     <string name="button_login">Iniciar Sesión</string>
     <string name="text_signup">Registrate</string>
+    <string name="action_pedir">comprar</string>
+    <string name="option1">opcion uno</string>
+    <string name="option2">opcion dos</string>
+    <string name="option3">opcion tres</string>
+    <string name="title_activity_main2"></string>
+    <string name="layotu_descripcion_descripcion">Descripción</string>
 </resources>
