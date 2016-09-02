@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Restaurantes UTB</string>
+    <string name="action_settings">ajustes</string>
+    <string name="action_search">buscar</string>
+    <string name="text_email">Correo electronico</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_name">Nombre</string>
+    <string name="button_login">Iniciar Sesión</string>
+    <string name="text_signup">Registrate</string>
+</resources>
