@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-  tools:context="com.proyect.utb.restaurantesutb.login">
+  tools:context="com.proyect.utb.restaurantesutb.login.login">
 
     <LinearLayout
         android:orientation="vertical"
@@ -13,22 +13,24 @@
         android:layout_alignParentStart="true"
         android:paddingTop="25dp"
         android:paddingLeft="5dp"
-        android:paddingRight="5dp">
+        android:paddingRight="5dp"
+        >
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/editText"
+            android:id="@+id/editText_email"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
-            android:hint="@string/text_email" />
+            android:hint="@string/text_email"
+            android:inputType="textEmailAddress"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
-            android:id="@+id/editText2"
+            android:id="@+id/editText_contraseña"
             android:layout_marginBottom="10dp"
             android:hint="@string/text_password" />
 
@@ -36,7 +38,39 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/button_login"
-            android:id="@+id/button"
+            android:id="@+id/button_iniciar"
             android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:text="Entrar Como invitado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Entrar_invitado"
+            android:gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccent"
+
+            />
+        <TextView
+            android:text="Ó"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+
+            />
+        <TextView
+            android:text="Registrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registrar"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="24sp"
+            android:textColor="@color/colorAccent"
+
+            />
     </LinearLayout>
 </RelativeLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/nav_pedidos"
+            android:icon="@drawable/ic_inbox_white_36dp"
+            android:title="Pedidos" />
+    <item
+        android:id="@+id/nav_comidas"
+        android:icon="@drawable/ic_view_headline_white_36dp"
+        android:title="Comidas" />
+
+    <item android:title="otros">
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_person_white_36dp"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_exit_to_app_white_36dp"
+                android:title="Cerrar Session" />
+        </menu>
+    </item>
+
+</menu>

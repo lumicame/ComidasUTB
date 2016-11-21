@@ -2,23 +2,65 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.proyect.utb.restaurantesutb">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <protected-broadcats android:name="android.intent.action.MEDIA_MOUNTED" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".tipo_cuenta"
+            android:label="Elegir Tipo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".login" />
-        <activity android:name=".registrar" />
-        <activity android:name=".lista_comidas" />
-        <activity android:name=".descripcion"></activity>
+        <activity
+            android:name=".login.login"
+            android:label="Iniciar Sesión" />
+        <activity
+            android:name=".registrar.registrar"
+            android:label="Registrar Restaurante" />
+        <activity
+            android:name=".registrar.registrar_cliente"
+            android:label="Registrar Cliente" />
+        <activity
+            android:name=".como_cliente.restaurantes.principal_clientes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".como_cliente.comidas.lista_comidas_clientes"
+            android:label="Lista de comidas"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".como_cliente.descripcion.descripcion_comida_cliente"
+            android:label="Descripción de comida"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".como_restaurante.comidas_res.comidas_res"
+            android:label="@string/title_activity_comidas_res"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".como_restaurante.pedidos.res_pedidos"
+            android:label="Pedidos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".como_restaurante.insertar_comida.res_insertarcomida"
+            android:label="Agregar comida"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".como_cliente.pedidos.clientes_pedidos"
+            android:label="Mis pedidos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".cli_perfil"></activity>
     </application>
 
 </manifest>

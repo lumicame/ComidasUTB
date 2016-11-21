@@ -14,4 +14,5 @@
     <string name="option3">opcion tres</string>
     <string name="title_activity_main2"></string>
     <string name="layotu_descripcion_descripcion">Descripción</string>
+    <string name="text_name_restaurant">Nombre de Restaurante</string>
 </resources>

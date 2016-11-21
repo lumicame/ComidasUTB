@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">ComidasUtB</string>
-    <string name="action_settings">Ajustes</string>
-    <string name="title_activity_principal">Principal</string>
-    <string name="tittle_principal">Restaurantes Disponibles</string>
-</resources>
